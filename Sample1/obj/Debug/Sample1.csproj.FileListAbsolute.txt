@@ -1,0 +1,15 @@
+C:\Users\HJ-YANG\source\repos\Sample1\bin\Debug\Sample1.exe.config
+C:\Users\HJ-YANG\source\repos\Sample1\bin\Debug\Sample1.exe
+C:\Users\HJ-YANG\source\repos\Sample1\bin\Debug\Sample1.pdb
+C:\Users\HJ-YANG\source\repos\Sample1\obj\Debug\Sample1.csproj.AssemblyReference.cache
+C:\Users\HJ-YANG\source\repos\Sample1\obj\Debug\App.g.cs
+C:\Users\HJ-YANG\source\repos\Sample1\obj\Debug\Sample1_MarkupCompile.cache
+C:\Users\HJ-YANG\source\repos\Sample1\obj\Debug\Sample1_MarkupCompile.lref
+C:\Users\HJ-YANG\source\repos\Sample1\obj\Debug\Sample1.g.resources
+C:\Users\HJ-YANG\source\repos\Sample1\obj\Debug\Sample1.Properties.Resources.resources
+C:\Users\HJ-YANG\source\repos\Sample1\obj\Debug\Sample1.csproj.GenerateResource.cache
+C:\Users\HJ-YANG\source\repos\Sample1\obj\Debug\Sample1.csproj.CoreCompileInputs.cache
+C:\Users\HJ-YANG\source\repos\Sample1\obj\Debug\Sample1.exe
+C:\Users\HJ-YANG\source\repos\Sample1\obj\Debug\Sample1.pdb
+C:\Users\HJ-YANG\source\repos\Sample1\obj\Debug\MainWindow.g.cs
+C:\Users\HJ-YANG\source\repos\Sample1\obj\Debug\MainWindow.baml
