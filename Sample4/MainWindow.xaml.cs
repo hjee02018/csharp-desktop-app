@@ -56,7 +56,9 @@ namespace Sample4
             }
         }
 
-
+        /// <summary>
+        /// Shmem Viewer (READ ONLY)
+        /// </summary>
         private void InitializeEquipValue()
         {
 

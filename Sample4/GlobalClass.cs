@@ -8,6 +8,8 @@ namespace Sample4
 {
     internal class GlobalClass
     {
+        private string OracleMainIP;
+        private string OracleSubIP;
 
     }
 }
