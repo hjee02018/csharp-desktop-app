@@ -14,6 +14,7 @@ using Newtonsoft.Json;
 using Oracle.ManagedDataAccess.Client;
 using Oracle.ManagedDataAccess.Types;
 using static Sample2.GlobalClass;
+using static Sample2.MainWindow;
 
 
 namespace Sample2
@@ -24,7 +25,7 @@ namespace Sample2
         public ObservableCollection<UserData> _userList { get; set; } = new ObservableCollection<UserData>();
 
         private ObservableCollection<string> _roleTypeList;
-        
+
         private string m_host = string.Empty;
         private string _currentDateTime;
 
@@ -167,7 +168,7 @@ namespace Sample2
             timer.Interval = TimeSpan.FromSeconds(1);
             timer.Tick += Timer_Tick;
             timer.Start();
-        
+
         }
 
         private void Timer_Tick(object sender, EventArgs e)
@@ -198,20 +199,71 @@ namespace Sample2
 
                 if (selectedRow != null)
                 {
-                    MessageBoxResult result = MessageBox.Show("삭제하시겠습니까?", "확인", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                    var selectedUserInfo = selectedRow.Item as UserData;
+                    MessageBoxResult result = MessageBox.Show($"{selectedUserInfo.USER_ID}의 사용자 정보를 삭제하시겠습니까?", "확인", MessageBoxButton.YesNo, MessageBoxImage.Question);
 
+                    
                     // 확인 버튼이 클릭되면 UI 스레드에서 삭제 작업 수행
                     if (result == MessageBoxResult.Yes)
                     {
-                        Application.Current.Dispatcher.Invoke(() =>
+                        // P_DELETE_USER_HJ 호출
+                        try
                         {
-                            UserList.Remove((UserData)selectedRow.Item);
-                        });
+                            using (OracleConnection connection = new OracleConnection(OracleConnectionString))
+                            {
+                                connection.Open();
+
+                                string ID_T_USER = selectedUserInfo.ID_T_USER;
+                                string USER_ID = selectedUserInfo.USER_ID;
+                                //string PWD = selectedUserInfo.PWD;
+                                //string ROL_NME = selectedUserInfo.ROL_NME;
+                                //string NME = selectedUserInfo.NME;
+
+                                /*
+                                 *  P_UPDATE_USER_HJ 호출
+                                 */
+                                using (OracleCommand command = new OracleCommand("HMX_KCTC.P_DELETE_USER_HJ", connection))
+                                {
+                                    command.CommandType = CommandType.StoredProcedure;
+
+                                    // 입력 매개변수 (JSON)
+                                    string jsonInput = JsonConvert.SerializeObject(new { ID_T_USER, USER_ID });
+
+                                    command.Parameters.Add("PV_JSON_I", OracleDbType.Varchar2).Value = jsonInput;
+
+                                    // 출력 매개변수 설정
+                                    command.Parameters.Add("PV_JSON_O", OracleDbType.Varchar2, 4000, "", ParameterDirection.Output);
+                                    command.Parameters.Add("PV_RETCOD_O", OracleDbType.Int32, ParameterDirection.Output);
+                                    command.Parameters.Add("PV_RETMSG_O", OracleDbType.Varchar2, 4000, "", ParameterDirection.Output);
+
+                                    command.ExecuteNonQuery();
+
+                                    int retCode = command.Parameters["PV_RETCOD_O"].Value != null ? ((OracleDecimal)command.Parameters["PV_RETCOD_O"].Value).ToInt32() : -1;
+                                    string retMessage = command.Parameters["PV_RETMSG_O"].Value != null ? command.Parameters["PV_RETMSG_O"].Value.ToString() : "No message";
+
+
+                                    if (retCode == 0)
+                                    {
+                                        MessageBox.Show($"{retMessage}", "알람");
+                                        Application.Current.Dispatcher.Invoke(() =>
+                                        {
+                                            UserList.Remove((UserData)selectedRow.Item);
+                                        });
+                                    }
+                                    else
+                                        MessageBox.Show($"사용자 정보 삭제 실패 : {retMessage} ; {retCode}", "경고");
+
+                                }
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show($"Error: {ex.Message}", "삭제 오 류");
+                        }
                     }
                 }
             }
         }
-
 
 
         private void hostName_TextChanged(object sender, RoutedEventArgs e)
@@ -257,7 +309,7 @@ namespace Sample2
                             else
                             {
                                 MessageBox.Show("No ID_T_USER found for the given USER_ID", "알림");
-                                continue; 
+                                continue;
                             }
                         }
 
@@ -395,7 +447,7 @@ namespace Sample2
                                         ADD_ATH = getVal(reader["ADD_ATH"].ToString()),
                                         DEL_ATH = getVal(reader["DEL_ATH"].ToString()),
                                         SAV_ATH = getVal(reader["SAV_ATH"].ToString()),
-                                        XCL_ATH = getVal(reader["XCL_ATH"].ToString()   ),
+                                        XCL_ATH = getVal(reader["XCL_ATH"].ToString()),
                                         INI_ATH = getVal(reader["INI_ATH"].ToString())
                                     });
                                 }
@@ -501,7 +553,7 @@ namespace Sample2
                                 MessageBox.Show("사용자를 찾을 수 없습니다.", "경고");
                                 return;
                             }
-                            
+
                             UserList.Clear();
                             int order = 1;
 
@@ -629,8 +681,7 @@ namespace Sample2
                                 command.CommandType = CommandType.StoredProcedure;
 
                                 // 입력 매개변수 (JSON)
-                                //string jsonInput = JsonConvert.SerializeObject(new {ID_T_USER,USER_ID,PWD,ROL_NME,NME,REG_DATE,REG_TIME});
-                                string jsonInput = JsonConvert.SerializeObject(new { ID_T_USER, USER_ID, PWD, ROL_NME, NME});
+                                string jsonInput = JsonConvert.SerializeObject(new { ID_T_USER, USER_ID, PWD, ROL_NME, NME });
 
                                 command.Parameters.Add("PV_JSON_I", OracleDbType.Varchar2).Value = jsonInput;
 
@@ -644,22 +695,24 @@ namespace Sample2
                                 command.ExecuteNonQuery();
 
 
-                                int retCode = command.Parameters["pv_retcod_o"].Value != null ? ((OracleDecimal)command.Parameters["pv_retcod_o"].Value).ToInt32() : -1;
-                                string retMessage = command.Parameters["pv_retmsg_o"].Value != null ? command.Parameters["pv_retmsg_o"].Value.ToString() : "No message";
+                                int retCode = command.Parameters["PV_RETCOD_O"].Value != null ? ((OracleDecimal)command.Parameters["PV_RETCOD_O"].Value).ToInt32() : -1;
+                                string retMessage = command.Parameters["PV_RETMSG_O"].Value != null ? command.Parameters["PV_RETMSG_O"].Value.ToString() : "No message";
 
 
                                 if (retCode == 0)
                                 {
-                                    MessageBox.Show($"사용자 정보 갱신 완료: {retMessage}", "알람");
+                                    MessageBox.Show($"{retMessage}", "알람");
                                     userData.IsEdited = false;
                                 }
                                 else
+                                {
                                     MessageBox.Show($"사용자 정보 갱신 실패 : {retMessage} ; {retCode}", "경고");
+                                    continue;
+                                }
                             }
                         }
                     }
                 }
-                MessageBox.Show("User data saved successfully.", "알림");
             }
             catch (Exception ex)
             {

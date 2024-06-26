@@ -1,0 +1,10 @@
+C:\Users\HJ-YANG\source\repos\Sample3\bin\Debug\Sample3.exe.config
+C:\Users\HJ-YANG\source\repos\Sample3\bin\Debug\Sample3.exe
+C:\Users\HJ-YANG\source\repos\Sample3\bin\Debug\Sample3.pdb
+C:\Users\HJ-YANG\source\repos\Sample3\obj\Debug\Sample3.csproj.AssemblyReference.cache
+C:\Users\HJ-YANG\source\repos\Sample3\obj\Debug\Sample3.Properties.Resources.resources
+C:\Users\HJ-YANG\source\repos\Sample3\obj\Debug\Sample3.csproj.GenerateResource.cache
+C:\Users\HJ-YANG\source\repos\Sample3\obj\Debug\Sample3.csproj.CoreCompileInputs.cache
+C:\Users\HJ-YANG\source\repos\Sample3\obj\Debug\Sample3.exe
+C:\Users\HJ-YANG\source\repos\Sample3\obj\Debug\Sample3.pdb
+C:\Users\HJ-YANG\source\repos\Sample3\obj\Debug\Sample3.Form1.resources

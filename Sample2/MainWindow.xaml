@@ -60,7 +60,7 @@
                 </DataGrid.RowStyle>
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="순번" Binding="{Binding Order}" IsReadOnly="True" />
-                    <DataGridTextColumn Header="사용자 ID" Binding="{Binding USER_ID}" IsReadOnly="True" />
+                    <DataGridTextColumn Header="사용자 ID" Binding="{Binding USER_ID}" IsReadOnly="False" />
                     <DataGridTextColumn Header="계정유형" Binding="{Binding ROL_NME}" IsReadOnly="False" />
 
                     <!--<DataGridComboBoxColumn Header="계정유형" SelectedItemBinding="{Binding ROL_NME}">
