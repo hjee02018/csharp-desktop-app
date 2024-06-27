@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Sample4")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("WinFormsWCS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84fee901a06de386a7486a8814c4e5fe2ce7ab35")]
-[assembly: System.Reflection.AssemblyProductAttribute("Sample4")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Sample4")]
+[assembly: System.Reflection.AssemblyProductAttribute("WinFormsWCS")]
+[assembly: System.Reflection.AssemblyTitleAttribute("WinFormsWCS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

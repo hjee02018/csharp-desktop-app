@@ -161,5 +161,10 @@ namespace Sample1
                 MessageBox.Show($"Error: {ex.Message}", "연결 오류");
             }
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
