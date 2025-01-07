@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HJ-YANG\\source\\repos\\WinFormsWCS\\WinFormsWCS.csproj": {}
+    "F:\\Project\\Source\\repos\\WinFormsWCS\\WinFormsWCS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HJ-YANG\\source\\repos\\WinFormsWCS\\WinFormsWCS.csproj": {
+    "F:\\Project\\Source\\repos\\WinFormsWCS\\WinFormsWCS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HJ-YANG\\source\\repos\\WinFormsWCS\\WinFormsWCS.csproj",
+        "projectUniqueName": "F:\\Project\\Source\\repos\\WinFormsWCS\\WinFormsWCS.csproj",
         "projectName": "WinFormsWCS",
-        "projectPath": "C:\\Users\\HJ-YANG\\source\\repos\\WinFormsWCS\\WinFormsWCS.csproj",
+        "projectPath": "F:\\Project\\Source\\repos\\WinFormsWCS\\WinFormsWCS.csproj",
         "packagesPath": "C:\\Users\\HJ-YANG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HJ-YANG\\source\\repos\\WinFormsWCS\\obj\\",
+        "outputPath": "F:\\Project\\Source\\repos\\WinFormsWCS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HJ-YANG\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,28 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.4.1, )"
+            },
+            "Microsoft.Office.Interop.Excel": {
+              "target": "Package",
+              "version": "[15.0.4795.1001, )"
+            },
+            "Microsoft.Office.Interop.Word": {
+              "target": "Package",
+              "version": "[15.0.4797.1004, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Oracle.ManagedDataAccess": {
+              "target": "Package",
+              "version": "[23.6.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -10,6 +10,5 @@ namespace Sample4
     {
         private string OracleMainIP;
         private string OracleSubIP;
-
     }
 }

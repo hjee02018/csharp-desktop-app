@@ -9,7 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample2", "..\Sample2\Sampl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample4", "..\Sample4\Sample4.csproj", "{77C34C61-49FE-4532-AFF3-9D4BD75D9BF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsWCS", "..\WinFormsWCS\WinFormsWCS.csproj", "{318F6521-B3A6-4836-91BD-0B8247EC1F7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsWCS", "..\WinFormsWCS\WinFormsWCS.csproj", "{318F6521-B3A6-4836-91BD-0B8247EC1F7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelSample", "..\ExcelSample\ExcelSample.csproj", "{C4AD0E35-860F-4069-8CF4-EEB3CF1FC118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecSampleWin", "..\ExecSampleWin\ExecSampleWin.csproj", "{2E2227A4-175E-43D0-9B21-EF9DDE04DC62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{318F6521-B3A6-4836-91BD-0B8247EC1F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{318F6521-B3A6-4836-91BD-0B8247EC1F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{318F6521-B3A6-4836-91BD-0B8247EC1F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4AD0E35-860F-4069-8CF4-EEB3CF1FC118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4AD0E35-860F-4069-8CF4-EEB3CF1FC118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4AD0E35-860F-4069-8CF4-EEB3CF1FC118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4AD0E35-860F-4069-8CF4-EEB3CF1FC118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2227A4-175E-43D0-9B21-EF9DDE04DC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2227A4-175E-43D0-9B21-EF9DDE04DC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2227A4-175E-43D0-9B21-EF9DDE04DC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2227A4-175E-43D0-9B21-EF9DDE04DC62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

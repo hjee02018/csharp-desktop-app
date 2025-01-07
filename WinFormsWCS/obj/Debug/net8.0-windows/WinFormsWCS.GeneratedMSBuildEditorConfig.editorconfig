@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WinFormsWCS
-build_property.ProjectDir = C:\Users\HJ-YANG\source\repos\WinFormsWCS\
+build_property.ProjectDir = F:\Project\Source\repos\WinFormsWCS\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

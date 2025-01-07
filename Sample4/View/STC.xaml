@@ -40,5 +40,7 @@
                 <TextBox x:Name="tbSTCLocation" Width="130" Margin="40,10,0,0"></TextBox>
             </StackPanel>
         </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3">
+        </StackPanel>
     </Grid>
 </Page>

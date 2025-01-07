@@ -133,7 +133,7 @@ namespace Sample4.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Sample4;component/view/cnv.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Sample4;V1.0.0.0;component/view/cnv.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\CNV.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
