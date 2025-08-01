@@ -1,0 +1,135 @@
+﻿///*
+//    Inkjet Printer 프로토콜 
+//    1. 
+//*/
+//{
+//  "protocol_name": "Inkjet Printer Communication Protocol",
+//  "message_terminator": [ "ESC", "CR", "LF" ],
+//  "commands": [
+//    {
+//      "name": "TXC",
+//      "description": "텍스트 요청",
+//      "parameters": [
+//        {
+//          "name": "a",
+//          "type": "int",
+//          "range": "0-9",
+//          "required": true
+//        }
+//      ],
+//      "format": "[ESC]MGN({a})[CR][LF]",
+//      "response_success": "[ESC]MGN OK : 1[CR][LF]",
+//      "response_error": "[ESC]AAA ER : Invalid Job Define[CR][LF]"
+//    },
+//    {
+//      "name": "BSC",
+//      "description": "바코드 시리얼 요청",
+//      "parameters": [],
+//      "format": "[ESC]MGS[CR][LF]",
+//      "response_success": "[ESC]MGS OK : 1[CR][LF]",
+//      "response_error": "[ESC]AAA ER : Save Failed[CR][LF]"
+//    },
+//    {
+//      "name": "CTI",
+//      "description": "인쇄 횟수 초기화",
+//      "parameters": [
+//        {
+//          "name": "a",
+//          "type": "int",
+//          "range": "0-9",
+//          "required": true
+//        }
+//      ],
+//      "format": "[ESC]MGL({a})[CR][LF]",
+//      "response_success": "[ESC]MGL OK : 1[CR][LF]",
+//      "response_error": "[ESC]AAA ER : Load Failed[CR][LF]"
+//    },
+//    {
+//      "name": "RUN",
+//      "description": "인쇄 시작/중지 상태 변경",
+//      "parameters": [
+//        {
+//          "name": "a",
+//          "type": "int",
+//          "range": "0-9",
+//          "required": true
+//        }
+//      ],
+//      "format": "[ESC]MGE({a})[CR][LF]",
+//      "response_success": "[ESC]MGE OK : 1[CR][LF]",
+//      "response_error": "[ESC]AAA ER : Select Failed[CR][LF]"
+//    },
+//    {
+//      "name": "PDY",
+//      "description": "인쇄 속도",
+//      "parameters": [
+//        {
+//          "name": "runSet",
+//          "type": "int",
+//          "enum": {
+//            "0": "Stop",
+//            "1": "Start"
+//          },
+//          "required": true
+//        }
+//      ],
+//      "format": "[ESC]RUN({runSet})[CR][LF]",
+//      "response_success": "[ESC]RUN OK[CR][LF]",
+//      "response_error": "[ESC]AAA ER : RUN Failed[CR][LF]"
+//    },
+//    {
+//      "name": "FLP",
+//      "description": "인쇄 상하 반전",
+//      "parameters": [
+//        {
+//          "name": "runSet",
+//          "type": "int",
+//          "enum": {
+//            "0": "Stop",
+//            "1": "Start"
+//          },
+//          "required": true
+//        }
+//      ],
+//      "format": "[ESC]RUN({runSet})[CR][LF]",
+//      "response_success": "[ESC]RUN OK[CR][LF]",
+//      "response_error": "[ESC]AAA ER : RUN Failed[CR][LF]"
+//    },
+//    {
+//      "name": "RVS",
+//      "description": "인쇄 좌우 반전",
+//      "parameters": [
+//        {
+//          "name": "runSet",
+//          "type": "int",
+//          "enum": {
+//            "0": "Stop",
+//            "1": "Start"
+//          },
+//          "required": true
+//        }
+//      ],
+//      "format": "[ESC]RUN({runSet})[CR][LF]",
+//      "response_success": "[ESC]RUN OK[CR][LF]",
+//      "response_error": "[ESC]AAA ER : RUN Failed[CR][LF]"
+//    },
+//    {
+//      "name": "DPT",
+//      "description": "인쇄 진하기",
+//      "parameters": [
+//        {
+//          "name": "runSet",
+//          "type": "int",
+//          "enum": {
+//            "0": "Stop",
+//            "1": "Start"
+//          },
+//          "required": true
+//        }
+//      ],
+//      "format": "[ESC]RUN({runSet})[CR][LF]",
+//      "response_success": "[ESC]RUN OK[CR][LF]",
+//      "response_error": "[ESC]AAA ER : RUN Failed[CR][LF]"
+//    }
+//  ]
+//}

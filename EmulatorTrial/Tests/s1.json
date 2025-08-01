@@ -1,0 +1,70 @@
+//{�ó����� �ۼ� -> �� ���·� Logs Output ��µ�} 
+
+{
+	"scenario_name": "Inbound Process Test (1F 지대백 라인)",
+	"description": "신규 D창고 지대백 프린터 시나리오 #1",
+	"steps": [
+		{
+			"step_id": 1,
+			"command": "TXC",
+			"parameters": {
+				"posX": 100,
+				"posY": 50,
+				"textSize": 10,
+				"font": 1,
+				"text": "INBOUND-001"
+			},
+			"expected_response": "[ESC]MGN OK : 1[CR][LF]",
+			"delay_after_ms": 500
+		},
+		{
+			"step_id": 2,
+			"command": "BSC",
+			"parameters": {
+				"posX": 100,
+				"posY": 50,
+				"bcrKind": 0,
+				"bcrType": 0,
+				"bcrSize": 10,
+				"bcrRatio": 40,
+				"bcrFontDis": 1,
+				"bcrFontSize": 10,
+				"bcrFont": 2,
+				"bcrIncrement": 1,
+				"bcrLapCounter": 0,
+				"Format": "ITEM_CD$LOT_NO$123"
+			},
+			"expected_response": "[ESC]MGN OK : 1[CR][LF]",
+			"delay_after_ms": 500
+		},
+		{
+			"step_id": 3,
+			"command": "RUN",
+			"parameters": {
+				"runSet": 1
+			},
+			"expected_response": "[ESC]RUN OK[CR][LF]",
+			"delay_after_ms": 1000
+		},
+		{
+			"step_id": 4,
+			"command": "AGV_LOAD",
+			"parameters": {
+				"pallet_id": "PLT001",
+				"station": "ST01"
+			},
+			"expected_response": "[ESC]AGV OK : LOADED[CR][LF]",
+			"delay_after_ms": 1000
+		},
+		{
+			"step_id": 5,
+			"command": "RACK_STORE",
+			"parameters": {
+				"rack_id": "R001",
+				"level": 2,
+				"position": 5
+			},
+			"expected_response": "[ESC]RACK OK : STORED[CR][LF]"
+		}
+	]
+}

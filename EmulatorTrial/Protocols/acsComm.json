@@ -1,0 +1,82 @@
+﻿///*
+//    ACS 프로토콜 
+//    1. 작업 등록 명령(o)
+
+//*/
+//{
+//    "protocol_name": "ACS Communication Protocol",
+//    "message_terminator": [ "ESC", "CR", "LF" ],
+//    "commands": [
+//        {
+//            "name": "MGN",
+//            "description": "번호 설정",
+//            "parameters": [
+//                {
+//                    "name": "a",
+//                    "type": "int",
+//                    "range": "0-9",
+//                    "required": true
+//                }
+//            ],
+//            "format": "[ESC]MGN({a})[CR][LF]",
+//            "response_success": "[ESC]MGN OK : 1[CR][LF]",
+//            "response_error": "[ESC]AAA ER : Invalid Job Define[CR][LF]"
+//        },
+//        {
+//            "name": "MGS",
+//            "description": "저장",
+//            "parameters": [],
+//            "format": "[ESC]MGS[CR][LF]",
+//            "response_success": "[ESC]MGS OK : 1[CR][LF]",
+//            "response_error": "[ESC]AAA ER : Save Failed[CR][LF]"
+//        },
+//        {
+//            "name": "MGL",
+//            "description": "불러오기",
+//            "parameters": [
+//                {
+//                    "name": "a",
+//                    "type": "int",
+//                    "range": "0-9",
+//                    "required": true
+//                }
+//            ],
+//            "format": "[ESC]MGL({a})[CR][LF]",
+//            "response_success": "[ESC]MGL OK : 1[CR][LF]",
+//            "response_error": "[ESC]AAA ER : Load Failed[CR][LF]"
+//        },
+//        {
+//            "name": "MGE",
+//            "description": "선택",
+//            "parameters": [
+//                {
+//                    "name": "a",
+//                    "type": "int",
+//                    "range": "0-9",
+//                    "required": true
+//                }
+//            ],
+//            "format": "[ESC]MGE({a})[CR][LF]",
+//            "response_success": "[ESC]MGE OK : 1[CR][LF]",
+//            "response_error": "[ESC]AAA ER : Select Failed[CR][LF]"
+//        },
+//        {
+//            "name": "RUN",
+//            "description": "시작 또는 중지",
+//            "parameters": [
+//                {
+//                    "name": "runSet",
+//                    "type": "int",
+//                    "enum": {
+//                        "0": "Stop",
+//                        "1": "Start"
+//                    },
+//                    "required": true
+//                }
+//            ],
+//            "format": "[ESC]RUN({runSet})[CR][LF]",
+//            "response_success": "[ESC]RUN OK[CR][LF]",
+//            "response_error": "[ESC]AAA ER : RUN Failed[CR][LF]"
+//        }
+//    ]
+//}

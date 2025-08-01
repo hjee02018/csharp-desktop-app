@@ -1,0 +1,64 @@
+{
+  "TXC": {
+    "description": "텍스트 출력 명령",
+    "parameters": {
+      "posX": "int",
+      "posY": "int",
+      "textSize": "int",
+      "font": "int",
+      "text": "string"
+    }
+  },
+  "BSC": {
+    "description": "바코드 시리얼 명령",
+    "parameters": {
+      "posX": "int",
+      "posY": "int",
+      "bcrKind": "int",
+      "bcrSize": "int",
+      "bcrRatio": "int",
+      "bcrFontDis": "int",
+      "bcrFontSize": "int",
+      "bcrFont": "int",
+      "bcrIncrement": "int",
+      "bcrLapCounter": "int",
+      "Format": "string"
+    }
+  },
+  "RUN": {
+    "description": "인쇄 시작/중지 상태 변경",
+    "parameters": {
+      "mode": "int"
+    }
+  },
+  "PDY": {
+    "description": "인쇄 속도 설정",
+    "parameters": {
+      "pdy": "int"
+    }
+  },
+  "FLP": {
+    "description": "인쇄 상하 반전 설정",
+    "parameters": {
+      "flp": "int"
+    }
+  },
+  "RVS": {
+    "description": "인쇄 상하 반전 설정",
+    "parameters": {
+      "rvs": "int"
+    }
+  },
+  "SSK": {
+    "description": "센서 입력 비활성 시간 설정",
+    "parameters": {
+      "ssk": "int"
+    }
+  },
+  "DPT": {
+    "description": "인쇄 진하기 설정",
+    "parameters": {
+      "dpt": "int"
+    }
+  }
+}

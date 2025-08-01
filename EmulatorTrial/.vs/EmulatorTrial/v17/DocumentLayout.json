@@ -1,0 +1,440 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB11D54-045A-4DD3-A394-5280FCF69B43}|..\\Trial\\Trial.csproj|c:\\users\\hj-yang\\source\\repos\\trial\\emulatorserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB11D54-045A-4DD3-A394-5280FCF69B43}|..\\Trial\\Trial.csproj|c:\\users\\hj-yang\\source\\repos\\trial\\protocolparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB11D54-045A-4DD3-A394-5280FCF69B43}|..\\Trial\\Trial.csproj|c:\\users\\hj-yang\\source\\repos\\trial\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB11D54-045A-4DD3-A394-5280FCF69B43}|..\\Trial\\Trial.csproj|c:\\users\\hj-yang\\source\\repos\\trial\\protocolconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB11D54-045A-4DD3-A394-5280FCF69B43}|..\\Trial\\Trial.csproj|c:\\users\\hj-yang\\source\\repos\\trial\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB11D54-045A-4DD3-A394-5280FCF69B43}|..\\Trial\\Trial.csproj|c:\\users\\hj-yang\\source\\repos\\trial\\protocols\\inkjet_protocol.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB11D54-045A-4DD3-A394-5280FCF69B43}|..\\Trial\\Trial.csproj|c:\\users\\hj-yang\\source\\repos\\trial\\tests\\s1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|c:\\users\\hj-yang\\source\\repos\\emulatortrial\\protocols\\inkjetprinter.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|solutionrelative:protocols\\inkjetprinter.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|c:\\users\\hj-yang\\source\\repos\\emulatortrial\\tests\\s1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|solutionrelative:tests\\s1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|c:\\users\\hj-yang\\source\\repos\\emulatortrial\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB11D54-045A-4DD3-A394-5280FCF69B43}|..\\Trial\\Trial.csproj|c:\\users\\hj-yang\\source\\repos\\trial\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB11D54-045A-4DD3-A394-5280FCF69B43}|..\\Trial\\Trial.csproj|c:\\users\\hj-yang\\source\\repos\\trial\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB11D54-045A-4DD3-A394-5280FCF69B43}|..\\Trial\\Trial.csproj|c:\\users\\hj-yang\\source\\repos\\trial\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|c:\\users\\hj-yang\\source\\repos\\emulatortrial\\protocolconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|solutionrelative:protocolconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|c:\\users\\hj-yang\\source\\repos\\emulatortrial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|c:\\users\\hj-yang\\source\\repos\\emulatortrial\\emulatorserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|solutionrelative:emulatorserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|c:\\users\\hj-yang\\source\\repos\\emulatortrial\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|solutionrelative:mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|c:\\users\\hj-yang\\source\\repos\\emulatortrial\\emulatortrial.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|solutionrelative:emulatortrial.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|c:\\users\\hj-yang\\source\\repos\\emulatortrial\\protocols\\acscomm.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|solutionrelative:protocols\\acscomm.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|c:\\users\\hj-yang\\source\\repos\\emulatortrial\\obj\\debug\\net8.0-windows\\mainwindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|solutionrelative:obj\\debug\\net8.0-windows\\mainwindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|c:\\users\\hj-yang\\source\\repos\\emulatortrial\\protocolparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|solutionrelative:protocolparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|c:\\users\\hj-yang\\source\\repos\\emulatortrial\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|c:\\users\\hj-yang\\source\\repos\\emulatortrial\\emulatortrial.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|solutionrelative:emulatortrial.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|c:\\users\\hj-yang\\source\\repos\\emulatortrial\\usercontrol1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B1438B-AEEB-4A39-A376-7CB32DD9887B}|EmulatorTrial.csproj|solutionrelative:usercontrol1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmulatorServer.cs",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\EmulatorServer.cs",
+              "RelativeDocumentMoniker": "..\\Trial\\EmulatorServer.cs",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\EmulatorServer.cs",
+              "RelativeToolTip": "..\\Trial\\EmulatorServer.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAEQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T00:30:09.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\Trial\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\Trial\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAEwBsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T00:25:04.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "..\\Trial\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\MainWindow.xaml",
+              "RelativeToolTip": "..\\Trial\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-01T00:25:04.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProtocolConstants.cs",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\ProtocolConstants.cs",
+              "RelativeDocumentMoniker": "..\\Trial\\ProtocolConstants.cs",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\ProtocolConstants.cs",
+              "RelativeToolTip": "..\\Trial\\ProtocolConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T00:30:26.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProtocolParser.cs",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\ProtocolParser.cs",
+              "RelativeDocumentMoniker": "..\\Trial\\ProtocolParser.cs",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\ProtocolParser.cs",
+              "RelativeToolTip": "..\\Trial\\ProtocolParser.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwCYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T00:30:32.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "inkjet_protocol.json",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\Protocols\\inkjet_protocol.json",
+              "RelativeDocumentMoniker": "..\\Trial\\Protocols\\inkjet_protocol.json",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\Protocols\\inkjet_protocol.json",
+              "RelativeToolTip": "..\\Trial\\Protocols\\inkjet_protocol.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-01T02:29:55.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "s1.json",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\Tests\\s1.json",
+              "RelativeDocumentMoniker": "..\\Trial\\Tests\\s1.json",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\Tests\\s1.json",
+              "RelativeToolTip": "..\\Trial\\Tests\\s1.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-01T00:53:34.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "..\\Trial\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\AssemblyInfo.cs",
+              "RelativeToolTip": "..\\Trial\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T00:30:08.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\App.xaml",
+              "RelativeDocumentMoniker": "..\\Trial\\App.xaml",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\App.xaml",
+              "RelativeToolTip": "..\\Trial\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-01T00:50:20.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\App.xaml.cs",
+              "RelativeDocumentMoniker": "..\\Trial\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\Trial\\App.xaml.cs",
+              "RelativeToolTip": "..\\Trial\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T00:31:56.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProtocolParser.cs",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\ProtocolParser.cs",
+              "RelativeDocumentMoniker": "ProtocolParser.cs",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\ProtocolParser.cs",
+              "RelativeToolTip": "ProtocolParser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T23:23:30.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "inkjetPrinter.json",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\Protocols\\inkjetPrinter.json",
+              "RelativeDocumentMoniker": "Protocols\\inkjetPrinter.json",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\Protocols\\inkjetPrinter.json",
+              "RelativeToolTip": "Protocols\\inkjetPrinter.json",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAEwAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-01T00:13:26.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmulatorServer.cs",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\EmulatorServer.cs",
+              "RelativeDocumentMoniker": "EmulatorServer.cs",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\EmulatorServer.cs",
+              "RelativeToolTip": "EmulatorServer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T23:19:28.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "s1.json",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\Tests\\s1.json",
+              "RelativeDocumentMoniker": "Tests\\s1.json",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\Tests\\s1.json",
+              "RelativeToolTip": "Tests\\s1.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-31T22:26:09.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-31T23:04:30.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAYwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T23:05:20.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T23:14:53.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProtocolConstants.cs",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\ProtocolConstants.cs",
+              "RelativeDocumentMoniker": "ProtocolConstants.cs",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\ProtocolConstants.cs",
+              "RelativeToolTip": "ProtocolConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T23:10:58.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainWindow.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\obj\\Debug\\net8.0-windows\\MainWindow.g.i.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\MainWindow.g.i.cs",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\obj\\Debug\\net8.0-windows\\MainWindow.g.i.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\MainWindow.g.i.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAQwIkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T23:58:38.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "acsComm.json",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\Protocols\\acsComm.json",
+              "RelativeDocumentMoniker": "Protocols\\acsComm.json",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\Protocols\\acsComm.json",
+              "RelativeToolTip": "Protocols\\acsComm.json",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-01T00:13:07.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmulatorTrial",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\EmulatorTrial.csproj",
+              "RelativeDocumentMoniker": "EmulatorTrial.csproj",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\EmulatorTrial.csproj",
+              "RelativeToolTip": "EmulatorTrial.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-01T00:20:04.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T23:15:52.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EmulatorTrial.csproj",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\EmulatorTrial.csproj",
+              "RelativeDocumentMoniker": "EmulatorTrial.csproj",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\EmulatorTrial.csproj",
+              "RelativeToolTip": "EmulatorTrial.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-31T22:26:08.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserControl1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\UserControl1.xaml.cs",
+              "RelativeDocumentMoniker": "UserControl1.xaml.cs",
+              "ToolTip": "C:\\Users\\HJ-YANG\\source\\repos\\EmulatorTrial\\UserControl1.xaml.cs",
+              "RelativeToolTip": "UserControl1.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T07:42:08.881Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
